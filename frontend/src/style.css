@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+    background-color: rgb(148, 112, 220);
+
+}
+
+.Menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.Menu h1{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.Menu h2{
+    margin-bottom: 30px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+nav a{
+    width: 100%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a h2{
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 3em;
+    padding: 1em;
+    font-size: 28px;
+    transition-duration: 0.2s;
+}
+
+nav a h2:hover{
+    transform: scale(1.05);
+}
+
+.photoSearch h2{
+    border-color: rgb(189, 161, 69);
+    color: rgb(189, 161, 69);
+    font-size: 28px;
+    background-color: white;
+
+}
+.photoSearch h2:hover{
+    color: white;
+    background-color: rgb(189, 161, 69);
+}
+.animedle-menu h2{
+    border-color: rgb(0, 116, 211);
+    color: rgb(0, 116, 211);
+    font-size: 28px;
+    background-color: white;
+
+}
+.animedle-menu h2:hover{
+    color: white;
+    background-color: rgb(0, 116, 211);
+}
+.bientot h2{
+    border-color: rgb(130, 14, 14);
+    color: rgb(130, 14, 14);
+    font-size: 28px;
+    background-color: white;
+
+}
+.bientot h2:hover{
+    color: white;
+    background-color: rgb(130, 14, 14);
+}
+
+
+
+
+
+.newGuess{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newGuess h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.newGuess img {
+    display: flex;
+    border-radius: 1.5em;
+    align-items: center;
+}
+
+.newGuess input{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 1em;
+    border: 3px solid rgb(189, 161, 69);
+    border-radius: 1em;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#guessButton{
+    width: 40%;
+    padding: 0.65em;
+    border: 3px solid rgb(189, 161, 69);
+    cursor: pointer;
+    color: rgb(189, 161, 69);
+    border-radius: 1em;
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration:0.1s ;
+}
+
+#guessButton:hover{
+    background-color: rgb(189, 161, 69);
+    color: white;
+}
+
+.animedle{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(148, 112, 220);
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+
+}
+#title-animedle{
+    margin-bottom: 30px;
+}
+#title-animedle, #second-title-animedle{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.error-message{
+    width: 100%;
+    color: white;
+}
+form {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+input, button{
+    padding: 3px;
+}
+input{
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0.5em;
+    background-color: white;
+}
+button{
+    margin-left: 20px;
+    background-color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    transition-duration:0.2s ;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+table{
+    width: 65%;
+    margin: auto;
+}
+th{
+    color: white;
+    padding: 0.6em;
+    font-size: 17px;
+}
+td {
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.green-cell{
+    background-color: rgb(155, 255, 155);
+    font-weight: 700;
+    text-align: center;
+}
+.red-cell{
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(251, 117, 117);
+}
+.yellow-cell{
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(255, 255, 167);
+}
+
+.arrow-up{
+    background-color: rgb(251, 117, 117);
+    font-weight: 700;
+    text-align: center;
+
+}
+.arrow-down{
+    background-color: rgb(251, 117, 117);
+    font-weight: 700;
+    text-align: center;
+
+
+}
